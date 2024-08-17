@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(235, 144, 159);
+    color: white;
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.nav{
+    /* border: 1px solid; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+.aside{
+    width: 30%;
+    /* border: 1px solid white; */
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+    background-color: rgb(111, 179, 202);
+}
+.article{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin: 20px;
+    /* gap: 90px; */
+    
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+.image{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 186, 186);
+    margin: 20px;
+    width: 20%;
+    height: 150px;
+    margin-bottom: -400px;
+
+}
+ /* .article-card{
+    text-align: center;
+    display: flex;
+    line-height: 50%;
+    margin-right: -5rem;
+    justify-content: center;
+    align-items: center;
+} */
+.article-card h3{
+    margin-top: -0.9px;
+    margin-right: -730px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -6px;
+}
